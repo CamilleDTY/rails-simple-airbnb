@@ -1,0 +1,34 @@
+<div class="container">
+
+  <div class="row">
+    <div class="show-title col-9">
+      <h2> <%= @flat.name %> </h2>
+      <p> <%= @flat.address %> </p>
+    </div>
+
+    <div class="book col">
+      <h4>Book this place !</h4>
+      <form action="#">
+        <label for="start">From :</label>
+        <input type="date" value="start">
+        <label for="end">To :</label>
+        <input type="date" value="end">
+      </form>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="show-description col-9">
+      <p> <%= @flat.description %> </p>
+    </div>
+
+    <div class="details col">
+      <h3>Details</h3>
+      <ul>
+        <li> <%= @flat.price_per_night %>€</li>
+        <li> <%= @flat.number_of_guests %></li>
+      </ul>
+    </div>
+  </div>
+
+</div>

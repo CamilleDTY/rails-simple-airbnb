@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+
+.nav-customized {
+  display: flex;
+  justify-content: space-between;
+  background: grey;
+  height : 30px;
+}
+
+  .cards {
+  height: 300px;
+  display : flex;
+  justify-content: space-around;
+}
+
+ .card {
+  width: 25%;
+  margin: 20px;
+  height: 300px;
+  border: 2px solid grey;
+ }
+
+ .card-info {
+  background: grey;
+  height: 200px;
+ }
+
+  .div-price-number {
+  background: grey;
+  height: 50px;
+ }
+
+ .price-number {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .show-description, .show-title, .book, .details {
+  border : 2px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+ }
+
+
